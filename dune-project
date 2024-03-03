@@ -26,19 +26,19 @@
    (and
     (>= v0.16)
     (< v0.17)))
-  (sexplib
-   (and
-    (>= v0.16)
-    (< v0.17)))
-  (union-find
-   (and
-    (>= v0.16)
-    (< v0.17)))
   (ppx_compare
    (and
     (>= v0.16)
     (< v0.17)))
   (ppx_sexp_conv
+   (and
+    (>= v0.16)
+    (< v0.17)))
+  (sexplib
+   (and
+    (>= v0.16)
+    (< v0.17)))
+  (union-find
    (and
     (>= v0.16)
     (< v0.17)))))
