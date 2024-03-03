@@ -17,7 +17,8 @@
 
 (package
  (name doubly-linked)
- (synopsis "Publishing [Core.Doubly_linked] as a standalone package to use with [Base]")
+ (synopsis
+  "Publishing [Core.Doubly_linked] as a standalone package to use with [Base]")
  (depends
   (ocaml
    (>= 5.1))
