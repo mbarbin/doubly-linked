@@ -6,7 +6,7 @@
 
 (license MIT)
 
-(authors "Mathieu Barbin")
+(authors "Jane Street Group, LLC")
 
 (maintainers "Mathieu Barbin")
 
@@ -17,7 +17,7 @@
 
 (package
  (name doubly-linked)
- (synopsis "Publishing [Core.Doubly_linked] as a standalone package to use with [Base]\027[D\027[D\027[D\027[D\027[D\027[D\027[D\027[D\027[D\027[D\027[D\027[D\027[D\027[D\027[D\027to use with [Base]")
+ (synopsis "Publishing [Core.Doubly_linked] as a standalone package to use with [Base]")
  (depends
   (ocaml
    (>= 5.1))
