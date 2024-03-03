@@ -23,8 +23,6 @@
 
     5. Another property permitted by (3) and (4) is that [length] is O(1). *)
 
-open! Import
-
 module type S = sig
   module Elt : sig
     type 'a t

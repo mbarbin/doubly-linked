@@ -25,15 +25,12 @@
    (and
     (>= v0.16)
     (< v0.17)))
-  (command-unix-for-opam
-   (>= 0.0.2))
-  (core
+  (sexplib
    (and
     (>= v0.16)
     (< v0.17)))
-  (expect_test_helpers_core
+  (union-find
    (and
-    :with-test
     (>= v0.16)
     (< v0.17)))
   (ppx_compare
@@ -44,22 +41,12 @@
    (and
     (>= v0.16)
     (< v0.17)))
-  (ppx_expect
-   (and
-    :with-test
-    (>= v0.16)
-    (< v0.17)))
   (ppx_hash
    (and
     (>= v0.16)
     (< v0.17)))
   (ppx_here
    (and
-    (>= v0.16)
-    (< v0.17)))
-  (ppx_js_style
-   (and
-    :dev
     (>= v0.16)
     (< v0.17)))
   (ppx_let
@@ -71,10 +58,6 @@
     (>= v0.16)
     (< v0.17)))
   (ppx_sexp_value
-   (and
-    (>= v0.16)
-    (< v0.17)))
-  (stdio
    (and
     (>= v0.16)
     (< v0.17)))))

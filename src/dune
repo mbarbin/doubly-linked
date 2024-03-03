@@ -8,8 +8,10 @@
   -warn-error
   +a
   -open
-  Base)
- (libraries base)
+  Base
+  -w
+  -70)
+ (libraries base sexplib union-find)
  (preprocess
   (pps
    ppx_compare
