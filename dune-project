@@ -21,7 +21,7 @@
   "Publishing [Core.Doubly_linked] as a standalone package to use with [Base]")
  (depends
   (ocaml
-   (>= 5.1))
+   (>= 5.2))
   (base
    (and
     (>= v0.17)

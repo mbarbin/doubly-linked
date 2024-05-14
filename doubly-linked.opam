@@ -10,7 +10,7 @@ doc: "https://mbarbin.github.io/doubly-linked/"
 bug-reports: "https://github.com/mbarbin/doubly-linked/issues"
 depends: [
   "dune" {>= "3.16"}
-  "ocaml" {>= "5.1"}
+  "ocaml" {>= "5.2"}
   "base" {>= "v0.17" & < "v0.18"}
   "ppx_compare" {>= "v0.17" & < "v0.18"}
   "ppx_sexp_conv" {>= "v0.17" & < "v0.18"}
