@@ -14,6 +14,7 @@ depends: [
   "base" {>= "v0.17" & < "v0.18"}
   "ppx_compare" {>= "v0.17" & < "v0.18"}
   "ppx_sexp_conv" {>= "v0.17" & < "v0.18"}
+  "ppxlib" {>= "0.32"}
   "sexplib" {>= "v0.17" & < "v0.18"}
   "union-find" {>= "v0.17" & < "v0.18"}
   "odoc" {with-doc}
