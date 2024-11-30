@@ -15,6 +15,8 @@
 
 (documentation "https://mbarbin.github.io/doubly-linked/")
 
+(implicit_transitive_deps false)
+
 (package
  (name doubly-linked)
  (synopsis
