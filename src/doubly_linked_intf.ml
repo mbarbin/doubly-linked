@@ -99,12 +99,12 @@ module type S = sig
   val iteri : 'a t -> f:(int -> 'a -> unit) -> unit
   val foldi : 'a t -> init:'acc -> f:(int -> 'acc -> 'a -> 'acc) -> 'acc
 
-  (** [fold_elt t ~init ~f] is the same as fold, except [f] is called with the ['a
-      Elt.t]'s from the list instead of the contained ['a] values.
+  (** [fold_elt t ~init ~f] is the same as fold, except [f] is called with the
+      ['a Elt.t]'s from the list instead of the contained ['a] values.
 
-      Note that like other iteration functions, it is an error to mutate [t] inside the
-      fold. If you'd like to call [remove] on any of the ['a Elt.t]'s, use
-      [filter_inplace]. *)
+      Note that like other iteration functions, it is an error to mutate [t]
+      inside the fold. If you'd like to call [remove] on any of the ['a Elt.t]'s,
+      use [filter_inplace]. *)
   val fold_elt : 'a t -> init:'acc -> f:('acc -> 'a Elt.t -> 'acc) -> 'acc
 
   val foldi_elt : 'a t -> init:'acc -> f:(int -> 'acc -> 'a Elt.t -> 'acc) -> 'acc
