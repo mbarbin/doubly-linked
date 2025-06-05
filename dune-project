@@ -29,27 +29,18 @@
     :with-dev-setup
     (= 0.27.0)))
   (base
-   (and
-    (>= v0.17)
-    (< v0.18)))
+   (>= v0.17))
   (ppx_compare
-   (and
-    (>= v0.17)
-    (< v0.18)))
+   (>= v0.17))
   (ppx_sexp_conv
-   (and
-    (>= v0.17)
-    (< v0.18)))
+   (>= v0.17))
   (ppxlib
    (>= 0.33))
   (sexplib
-   (and
-    (>= v0.17)
-    (< v0.18)))
+   (>= v0.17))
   (union-find
    (and
-    (>= v0.17)
-    (< v0.18)))
+    (>= v0.17)))
   (sherlodoc
    (and
     :with-doc
