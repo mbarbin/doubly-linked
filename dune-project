@@ -39,8 +39,7 @@
   (sexplib
    (>= v0.17))
   (union-find
-   (and
-    (>= v0.17)))
+   (>= v0.17))
   (sherlodoc
    (and
     :with-doc
