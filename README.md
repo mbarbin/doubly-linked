@@ -1,5 +1,14 @@
 # doubly-linked
 
+:warning: This repository is now a public archive. I have stopped developping the project and will not be maintaining it forward.
+
+I am still experimenting regarding how certain fundamental upstream libraries can be repackaged in opam to avoid a dependency bloat, however this is a lot of maintenance and busy work which is not always worth it (I'm not sure). I don't have a use case for this one at the moment.
+
+See also:
+- https://github.com/Kakadu/ppx_expect_nobase
+
+---
+
 [![CI Status](https://github.com/mbarbin/doubly-linked/workflows/ci/badge.svg)](https://github.com/mbarbin/doubly-linked/actions/workflows/ci.yml)
 
 This library offers a repackaging of `Core`'s `Doubly_linked`, as a standalone opam package for using with `Base`.
